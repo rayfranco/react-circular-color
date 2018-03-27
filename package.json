@@ -1,9 +1,13 @@
 {
-  "name": "react-circular-color",
+  "name": "vue-circular-color",
   "version": "1.2.0",
-  "description": "A circular color picker component also named color-wheel",
-  "author": "Dmitry Bondarchuk <dvbondarchuk@gmail.com>",
+  "description": "A circular color picker component also named color-wheel.",
+  "author": "Franco Bouly <fbouly@gmail.com>",
   "contributors": [
+    {
+      "name": "Dmitry Bondarchuk",
+      "email": "dvbondarchuk@gmail.com"
+    },
     {
       "name": "Timur Umarov",
       "email": "timur@umar0v.name",
@@ -18,13 +22,13 @@
   "main": "./build/index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ubcent/react-circular-color.git"
+    "url": "https://github.com/rayfranco/vue-circular-color.git"
   },
   "license": "MIT",
   "keywords": [
     "color-picker",
-    "react",
-    "react-component",
+    "vue",
+    "vue-component",
     "svg"
   ],
   "scripts": {
@@ -42,29 +46,22 @@
     "babel-eslint": "^7.2.3",
     "babel-loader": "^7.0.0",
     "babel-preset-env": "^1.6.1",
-    "babel-preset-react": "^6.24.1",
     "babel-preset-stage-1": "^6.24.1",
     "babel-register": "^6.8.0",
     "chai": "^3.5.0",
     "enzyme": "^3.3.0",
-    "enzyme-adapter-react-16": "^1.1.1",
     "eslint": "^3.11.0",
-    "eslint-config-airbnb": "^14.1.0",
+    "eslint-config-standard": "^11.0.0",
     "eslint-plugin-import": "^2.2.0",
-    "eslint-plugin-jsx-a11y": "^4.0.0",
-    "eslint-plugin-react": "^6.0.0",
     "jsdom": "^9.0.0",
     "mocha": "^3.3.0",
     "prop-types": "^15.6.0",
-    "react": "^16.2.0",
-    "react-addons-test-utils": "^15.0.2",
-    "react-dom": "^16.2.0",
     "rimraf": "^2.3.4",
     "webpack": "^2.5.1",
     "webpack-dev-server": "^2.4.5"
   },
   "dependencies": {},
   "peerDependencies": {
-    "react": "^0.14.0 || ^15.0.0"
+    "vue": "^2.5.16"
   }
 }
