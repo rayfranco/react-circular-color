@@ -1,5 +1,6 @@
 # Vue Circular Color picker [![npm](https://img.shields.io/npm/dt/vue-circular-color.svg)](https://www.npmjs.com/package/vue-circular-color)
 
+> __This plugin is a port from [`react-circular-color`](https://github.com/ubcent/react-circular-color) and is a draft as of now. Only source code has been ported. Build, tests and publishing is not.__
 
 A circular color picker component also named color-wheel performed with vue and pure svg. Mobile compatible.
 
